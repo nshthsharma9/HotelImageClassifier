@@ -1,8 +1,8 @@
 # Hotel Image Classifier
 
-This is a program that classifies the image, using tensorflow, supplied to it into categories: Bedroom, Livingroom, Kitchen, Bathroom, PropertyImage, SwimmingPool, along with providing a match percentage. 
+This is a program that classifies the image, using tensorflow, supplied to it into categories: Bedroom, Livingroom, Kitchen, Bathroom, PropertyImage, SwimmingPool, along with providing a match percentage.
 
-It is build using TensorFlow framework. 
+It is build using TensorFlow framework.
 
 # Requirements
 
@@ -13,7 +13,7 @@ It is build using TensorFlow framework.
 
 # Usage
 1. Download the code.
-2. Run app.py through python in Terminal. 
+2. Run app.py through python in Terminal.
 3. Open the webpage it prompts in the Terminal.
 4. Click on choose image and then select an image.
 5. Upload the image.
@@ -21,7 +21,7 @@ It is build using TensorFlow framework.
 
 A pre trained model will be required which can be found here: https://www.dropbox.com/sh/89v2jkbjagbkmul/AABDgww_Z2kTarwaNLN0kNjma?dl=0
 
-Download these two file and update their path in the app.py code file. 
+Download these two file and update their path in the app.py code file.
 
 # Re-Training process
 
@@ -39,20 +39,22 @@ For example
  [any_path]/my_own_classifier/data/PropertyImage
  [any_path]/my_own_classifier/data/SwimmingPool
 ```
- and then put your image on it. 
+ and then put your image on it.
 
 NOTE: The data set should be as clean as possible for good results. Please keep this in mind. And bigger the data set the better.
 
- This "classifier" directory will have your samples but also trained classifier after execution of "train.sh". 
+ This "classifier" directory will have your samples but also trained classifier after execution of "train.sh".
 
 Re-train
- 
+
 You should have tensorflow repository cloned and all the files installed before running this. In the Retraining code folder, Just type
 ```
  ./train.sh [any_path]/my_own_classifier
-``` 
+```
 A pre-trained model can be found here:  
 https://www.dropbox.com/sh/89v2jkbjagbkmul/AABDgww_Z2kTarwaNLN0kNjma?dl=0
 
 You can download the above two files and in the code change the
- 
+
+
+ added a new line
